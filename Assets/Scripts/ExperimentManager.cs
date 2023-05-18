@@ -158,7 +158,7 @@ public class ExperimentManager : MonoBehaviour
     {
         Debug.Log("Should save now");
         string data = "ID: " + participantID + " | Condition: " + condition + " | Money spent: " + moneySpent; 
-        File.WriteAllText("D:/RobotVendorData/"+ participantID +".txt", data);
+        File.WriteAllText("C:/Users/imoge/Documents/Bachelor_Thesis_IH/RobotVendorData" + participantID +".txt", data);
 
         EditorApplication.isPlaying = false;
         Application.Quit();
